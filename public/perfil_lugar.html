@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <title>Perfil de lugar</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Perfil de lugar en la aplicación Macao">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/perfil_lugar.css">
+</head>
+
+<body>
+    <header id="header_principal">
+        <a href="http://localhost:3000/public/index.html"><img src="imgs/logo.png" alt="Logo"></a>
+        <nav id="navPrincipal">
+            <ul>
+                <li><a class="inicio">Inicio</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_lugar.html">Lugares</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_evento.html">Eventos</a></li>
+                <li><a href="http://localhost:3000/public/registro_linea.html">Registrate</a></li>
+                <li><a href="http://localhost:3000/public/inicio_sesion.html">Iniciar sesión</a></li>
+                <li class="imagen_prefil"><img src="imgs/foto_user.png" alt="subbtnIr imágen" id="image_preview">
+                    <div id="foto_perfil">
+                        <ul>
+                            <li class="cliente"><a href="http://localhost:3000/public/perfil_usuario.html">Mi perfil</a></li>
+                            <li class="cliente"><a id="btnCerrarSesion">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="lista_lugares">
+        <section id="lugares">
+
+        </section>
+    </div>
+
+    <div class="wrap">
+        <ul class="tabs">
+            <li><a href="#tabDescripcion"><span class="fas fa-align-left"></span><span class="fas fa-align-left"></span><span class="tab-text">Descripción</span></a></li>
+            <li><a href="#tabMapa"><span class="fas fa-map-marker-alt"></span><span class="tab-text">Ubicación</span></a></li>
+            <li><a href="#tabOpiniones"><span class="fas fa-comment-dots"></span><span class="tab-text">Calificación</span></a></li>
+            <li><a href="#tabEventos"><span class="fas fa-calendar-alt" ></span><span class="tab-text"></span>Eventos del lugar</a></li>
+        </ul>
+
+        <div class="secciones">
+            <article id="tabDescripcion">
+            </article>
+            <article id="tabMapa">
+            </article>
+            <article id="tabOpiniones">
+            </article>
+            <article id="tabEventos">
+            </article>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <h2>Derechos reservados</h2>
+        <h3>Desarrollado por: Sibö</h3>
+    </footer>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js" type="text/javascript"></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+    <script src="js/servicio_imagen(lugares).js"></script>
+    <script src="js/moment.js"></script>
+    <script src="../node_modules/moment/locale/es.js"></script>
+    <script src="js/servicio_lugar.js"></script>
+    <script src="js/servicio_evento.js"></script>
+    <script src="js/servicio_registar_lugar.js"></script>
+    <script src="js/servicio_usuarios.js"></script>
+    <script src="js/controlador_nav.js"></script>
+    <script src="js/calificacion_estrellas.js"></script>
+    <script src="js/controlador_perfil_lugar.js"></script>
+    <script src="js/controlador_calificacion_lugar.js"></script>
+    <script src="js/mapa.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5YDMnCCgbc-V5PFH98ylidtWtga2TBF0&callback=initMap"></script>
+    <script src="js/efecto_nav.js"></script>
+</body>
+
+</html>

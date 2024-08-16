@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <title>Olvidó contraseña</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Olvidó de la contraseña la aplicación Macao">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/olvidar_contrasena.css">
+</head>
+
+<body>
+    <header id="header_principal">
+        <a href="http://localhost:3000/public/index.html"><img src="imgs/logo.png" alt="Logo"></a>
+        <nav id="navPrincipal">
+            <ul>
+                <li><a class="inicio">Inicio</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_lugar.html">Lugares</a></li>
+                <li><a href="http://localhost:3000/public/Visualizar_evento.html">Eventos</a></li>
+                <li><a href="http://localhost:3000/public/registro_linea.html">Registrarse</a></li>
+                <li><a href="http://localhost:3000/public/inicio_sesion.html">Inicio sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form class="form">
+
+            <div id="inicio">
+                <h2>Recuperación de la contraseña</h2>
+                <h3>Ingrese su nombre de Usuario</h3>
+                <div>
+                    <input type="text" id="txtUsuario" placeholder="Usuario">
+                </div>
+                <h3>Ingrese su correo electrónico</h3>
+                <div>
+                    <input type="text" id="txtCorreo" placeholder="Correo">
+                </div>
+            </div>
+            <div class="boton iniciar">
+                <button type="button" class="button" id="btnOlvidarContrasena">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer id="footer">
+        <h2>Derechos reservados</h2>
+        <h3>Desarrollado por: Sibö</h3>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/servicio_usuarios.js"></script>
+    <script src="js/servicio_olvidar_contrasena.js"></script>
+    <script src="js/controlador_olvidar_contrasena.js"></script>
+    <script src="js/efecto_nav.js"></script>
+</body>
+
+</html>

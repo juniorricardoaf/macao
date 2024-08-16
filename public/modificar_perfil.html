@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <title>Perfil</title>
+    <meta charset="utf-8">
+    <meta name="description" content="registro en la aplicación Macao">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/modificar_perfil.css">
+</head>
+
+<body>
+    <header id="header_principal">
+        <a href="http://localhost:3000/public/index.html"><img src="imgs/logo.png" alt="Logo"></a>
+        <nav id="navPrincipal">
+            <ul>
+                <li><a href="http://localhost:3000/public/perfil_usuario.html" class="inicio">Inicio</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_lugar.html">Lugares</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_evento.html">Eventos</a></li>
+                <li><a href="http://localhost:3000/public/registro_linea.html">Registrarse</a></li>
+                <li><a href="http://localhost:3000/public/inicio_sesion.html">Iniciar sesión</a></li>
+                <li class="imagen_prefil"><img src="imgs/foto_user.png" alt="subbtnIr imágen" id="image_preview">
+                    <div id="foto_perfil">
+                        <ul>
+                            <li class="cliente"><a href="http://localhost:3000/public/perfil_usuario.html">Mi perfil</a></li>
+                            <li class="cliente"><a id="btnCerrarSesion">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="registro_linea">
+            <div id="titulo">
+            </div>
+            <form class="form_derecho">
+
+                <div class="col_izq">
+                    <div id="foto_perfil">
+                        <img src="imgs/foto_user.png" alt="subir imágen" id="image_preview5">
+                    </div>
+                    <div>
+                        <button type="button" id="btnSubirImagen1">Cambiar foto</button>
+                    </div>
+                    <div>
+                        <label for="txtNombre" id="label10"><i class="fas fa-file-signature"></i> Nombre completo:</label>
+                        <input type="text" maxlength="40" id="txtNombre">
+                    </div>
+                    <div id="perfiles">
+                        <label for="txtCorreo2"><i class="fas fa-user-tie"></i> Correo de empresa:</label>
+                        <input type="email" maxlength="50" id="txtCorreo2" placeholder="">
+                    </div>
+                </div>
+                <div class="col_der">
+
+                    <div>
+                        <label for="txtCorreo"><i class="far fa-envelope"></i> Correo electrónico:</label>
+                        <input type="email" maxlength="50" id="txtCorreo" placeholder="">
+                    </div>
+
+                    <div>
+                        <label for="numID"><i class="far fa-id-card"></i> Identificación:</label>
+                        <input type="text" id="numID" title="formato sin guiones">
+                    </div>
+                    <div>
+                        <label for="txtFecha"><i class="far fa-calendar-alt"></i> Fecha de nacimiento:</label>
+                        <input type="date" id="txtFecha" placeholder="">
+                    </div>
+                    <div>
+                        <label for="numEdad"><i class="fas fa-user-clock"></i> Edad:</label>
+                        <input  type="number" id="numEdad" disabled min="15" max="100">
+                    </div>
+
+                    <div id="perfiles3">
+                        <label for="txtDireccion"><i class="fas fa-map-marker-alt"></i> Dirección:</label>
+                        <input type="textarea" id="txtDireccion" placeholder="">
+                    </div>
+                    <div id="perfiles4">
+                        <label for="txtTelefono"><i class="fas fa-phone-square"></i> Teléfono:</label>
+                        <input type="text" id="txtTelefono" placeholder="">
+                    </div>
+                </div>
+                <div class="boton">
+                    <button type="button" class="button" id="btnModificar">Confirmar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <h2>Derechos reservados</h2>
+        <h3>Desarrollado por: Sibö</h3>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/servicio_usuarios.js"></script>
+    <script src="js/controlador_nav.js"></script>
+    <script src="js/controlador_modificar_usuarios1.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src="js/servicio_imagen_modificar_usuarios.js"></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+    <script src="js/efecto_nav.js"></script>
+
+</body>
+
+</html>

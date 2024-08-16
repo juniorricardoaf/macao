@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Empresario</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Inicio tipo empresario en la biblioteca">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/inicio_empresario.css">
+</head>
+
+<body>
+    <header id="header_principal">
+        <a href="http://localhost:3000/public/index.html"><img src="imgs/logo.png" alt="Logo"></a>
+        <nav id="navPrincipal">
+            <ul>
+                <li><a class="inicio">Inicio</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_lugar.html">Lugares</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_evento.html">Eventos</a></li>
+                <li><a href="http://localhost:3000/public/registro_linea.html">Registrarse</a></li>
+                <li><a href="http://localhost:3000/public/inicio_sesion.html">Iniciar sesión</a></li>
+                <li class="imagen_prefil"><img src="imgs/foto_user.png" alt="subbtnIr imágen" id="image_preview">
+                    <div id="foto_perfil">
+                        <ul>
+                            <li class="cliente"><a href="http://localhost:3000/public/perfil_usuario.html">Mi perfil</a></li>
+                            <li class="cliente"><a id="btnCerrarSesion">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="titulo">
+            <input type="text" id="txtNombreUsuario" disabled>
+        </div>
+        <section class="card">
+
+            <div class="caja">
+                <p class="opciones">Seleccioná esta opción para ver tus lugares</p>
+                <div class="imagen">
+                    <img src="imgs/empresario_2.png" alt="">
+                </div>
+
+                <div class="boton verLugar">
+                    <button class="button" id="btnVerLugar">Ver lugares</button>
+                </div>
+            </div>
+            <div class="caja">
+
+                <p class="opciones">Seleccioná esta opción para registrar un lugar</p>
+                <div class="imagen">
+                    <img src="imgs/empresario_3.png" alt="">
+                </div>
+
+                <div class="boton registroEvento">
+                    <button class="button" id="btnRegistrarLugar">Registrar lugar</button>
+                </div>
+            </div>
+            <div class="caja">
+                <p class="opciones">Seleccioná esta opción para ver tus eventos</p>
+                <div class="imagen">
+                    <img src="imgs/empresario_1.png" alt="">
+                </div>
+
+                <div class="boton verEvento">
+                    <button class="button" id="btnVerEvento">Ver eventos</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <h2>Derechos reservados</h2>
+        <h3>Desarrollado por: Sibö</h3>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/controlador_nav.js"></script>
+    <script src="js/inicio_empresario.js"></script>
+    <script src="js/efecto_nav.js"></script>
+</body>
+
+</html>

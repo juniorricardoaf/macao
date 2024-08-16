@@ -1,0 +1,190 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <title>Registrar evento</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Página para el registro de eventos en la aplicación Macao">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/registrar_evento.css">
+</head>
+
+<body>
+    <header id="header_principal">
+        <a href="http://localhost:3000/public/index.html"><img src="imgs/logo.png" alt="Logo"></a>
+        <nav id="navPrincipal">
+            <ul>
+                <li><a class="inicio">Inicio</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_lugar.html">Lugares</a></li>
+                <li><a href="http://localhost:3000/public/visualizar_evento.html">Eventos</a></li>
+                <li><a href="http://localhost:3000/public/registro_linea.html">Registrate</a></li>
+                <li><a href="http://localhost:3000/public/inicio_sesion.html">Iniciar sesión</a></li>
+                <li class="imagen_prefil"><img src="imgs/foto_user.png" alt="subbtnIr imágen" id="image_preview">
+                    <div id="foto_perfil">
+                        <ul>
+                            <li class="cliente"><a href="http://localhost:3000/public/perfil_usuario.html">Mi perfil</a></li>
+                            <li class="cliente"><a id="btnCerrarSesion">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Registrar evento</h1>
+    <div id="Formulario">
+        <form class="col_izq">
+            <div>
+                <figure class="image_holder">
+                    <img src="imgs/default-placeholder-300x300.png" alt="Subir imágen de actividades" id="image_previewEvento">
+                </figure>
+            </div>
+            <div>
+                <button type="button" id="btnSubirImagenEvento" class="boton_imagen">Subir Imagen</button>
+            </div>
+
+            <div>
+                <label>Moneda:</label>
+                <select id="txtMoneda">
+                    <option value="-">-</option>
+                    <option value="Colón">Colón</option>
+                    <option value="Dólar">Dólar</option>
+                </select>
+
+            </div>
+
+            <div>
+                <label for="txtPrecio">Precio:</label>
+                <input type="number" id="txtPrecio" value=0>
+            </div>
+            <div class="selectCajas">
+                <label>Categorias:</label>
+
+                <table id="tblCategorias" class="tablaCheck">
+                    <thead class="tblCabeza">
+                        <tr>
+                            <th>Seleccione al menos una<i class="fas fa-angle-down"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tblCuerpo">
+                        <tr>
+                            <td id="check">
+                                <input type="checkbox" value=""><label for="">nombre</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+
+                <label class="etiqueta" for="etiqueta">Etiquetas</label>
+
+                <p>
+                    <div class="tags-input" data-name='tags-input'>
+
+                    </div>
+                </p>
+            </div>
+            <div class="selectCajas">
+                <label>Patrocinadores:</label>
+
+                <table id="tblPatrocinadores" class="tablaCheck">
+                    <thead class="tblCabeza">
+                        <tr>
+                            <th>Seleccione al menos uno<i class="fas fa-angle-down"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tblCuerpo">
+                        <tr>
+                            <td id="check">
+                                <input type="checkbox" value=""><label for="">nombre</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <button type="button" id="btnRegistrarActividad">Registrar</button>
+            </div>
+        </form>
+
+        <form class="col_der">
+            <div>
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" id="txtNombre" placeholder="" minlength="0" maxlength="60">
+            </div>
+
+            <div>
+                <label for="txtFecha">Fecha:</label>
+                <input type="date" id="txtFecha">
+            </div>
+
+            <div>
+                <label for="txtHora_Inicio">Hora de inicio:</label>
+                <input type="text" id="txtHora_Inicio" maxlength="2" max="23">
+            </div>
+
+            <div>
+                <label for="txtMinuto_Inicio">Minutos de inicio:</label>
+                <input type="text" id="txtMinutos_Inicio" maxlength="2" max="59" value="00">
+            </div>
+
+            <div>
+                <label for="txtHora_Fin">Hora de finalización:</label>
+                <input type="txt" id="txtHora_Fin" maxlength="2" max="23">
+            </div>
+
+            <div>
+                <label for="txtMinutos_Fin">Minutos de finalización:</label>
+                <input type="txt" id="txtMinutos_Fin" maxlength="2" max="59" value="00">
+            </div>
+
+            <div>
+                <label for="txtcant_espacios">Cantidad de espacios:</label>
+                <input type="number" id="txtcant_espacios" placeholder="">
+            </div>
+
+            <div>
+                <label for="txtDescripcion">Descripción:</label>
+                <textarea id="txtDescripcion" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="txtUbicacion">Ubicación:</label>
+                <textarea name="ubicación" id="txtUbicacion" cols="30" rows="10"></textarea>
+            </div>
+            <input type="text" id="autocomplete" placeholder="Buscar ubicación">
+            <div id="map"></div>
+            <input type="text" id="inputLat">
+            <input type="text" id="inputLng">
+        </form>
+
+        <footer id="footer">
+            <h2>Derechos reservados</h2>
+            <h3>Desarrollado por: Sibö</h3>
+        </footer>
+         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="../node_modules/moment/locale/es.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js" type="text/javascript"></script>
+        <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+        <script src="js/servicio_imagen(evento).js"></script>
+        <script src="js/servicio_patrocinadores.js"></script>
+        <script src="js/servicio_evento.js"></script>
+        <script src="js/servicio_categorias.js"></script>        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA25aG0kvhXN4GLA-7KN-DEV2YzXVbuY&libraries=places"></script>
+        <script src="js/localizacion.js"></script>
+        <script src="js/controlador_mapa.js"></script>
+        <script src="js/controlador_registrar_evento.js"></script>
+        <script src="js/controlador_nav.js"></script>
+        <script src="js/efecto_nav.js"></script>
+</body>
+
+</html>
