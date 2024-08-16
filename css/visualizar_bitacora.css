@@ -1,0 +1,16 @@
+
+/*buscar*/
+#filtro{
+    width: 310px;
+    height: 36px;
+    margin: 0 auto; 
+}
+label{
+    color: black;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+#tblUsuarios{
+    width: 1200px;
+}

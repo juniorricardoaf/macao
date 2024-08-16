@@ -1,0 +1,103 @@
+.bienvenido{
+    padding-top: 80px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+.opciones {
+    position: relative;
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    height: 460px;
+}
+.opciones .opcion{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px 20px 150px ;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+}
+
+.opciones .opcion .frente{
+    background: #ce6108;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.opciones .opcion .frente h2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 22px;
+}
+.frente img{
+
+    display: block;
+    width: 68%;
+    height: 68%;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.frente .far.fa-address-book{
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.atras{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    line-height: normal;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.opcion{
+    border: 5px solid #ffffff;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0);
+    transition: 0.8s;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.opcion:hover {
+    border: 5px solid #ce6108;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    color: rgba(211, 84, 0,0.9);
+    transform: rotateY(180deg);
+
+}
+.boton {
+    position: relative;
+    left: 0;
+    transform: translate(0%, 0%); 
+    font-size: 20px;
+    margin-top: 5px;
+}
+.atras h1{
+    color: #ce6108;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: none;
+}
+.button{
+border-radius: 10px;
+background: #ce610800;
+border: 2px solid #ce6108;
+padding: 5px;
+color: #ce6108;
+font-size: 12px;
+width: 100%;
+}

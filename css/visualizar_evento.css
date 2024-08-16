@@ -1,0 +1,311 @@
+h1{
+    font-size: 40px;
+    margin: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 100px;
+}
+
+/*buscar*/
+#filtro{
+    padding: 0px 10px 0px 10px ;
+    width: 310px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+input{
+    width: 160px;
+    height: 36px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: none;
+    text-align: center;
+}
+
+label{
+    color: black;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+div #txtFiltrar{
+    width: 600px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+}
+
+div button{
+    width: 170px;
+    height: 45px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 480px;
+}
+
+button{
+    color: #fff;
+    border-radius: 10px;
+    background-color:#ce6108;
+    margin-right: 40px;
+}
+
+button:hover{
+    background: #f77308;
+    cursor: pointer;
+}
+
+select {
+    width: 170px;
+    height: 45px;
+    background-color: white;
+    color: rgba(211, 84, 0,0.9);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+select:hover{
+  background-color: rgba(234, 73, 36, 255);
+    color: white;
+    cursor: pointer;
+}
+
+option{
+  background-color: rgba(234, 73, 36, 255);
+}
+
+
+.lista_eventos{
+   height: 100%;
+}
+
+#eventos .cardEvento{
+    width: 920px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#eventos .cardEvento .contenedorImagen{
+    max-width: 220px;
+    height: 220px;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#eventos .cardEvento .contenedorImagen .divInfo{
+    width: 400px;
+    float: left;
+}
+
+.contenedorImagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.divInfo{
+    padding-top: 40px;
+    width: 550px;
+    border-radius: 10px;
+    color: rgba(211, 84, 0,0.9);
+}
+
+.divInfo img{
+    width: 49px;
+    height: 49px;
+}
+
+.cardEvento{
+    color: rgba(211, 84, 0,0.9);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.cardEvento:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.verMas{
+    width: 100px;
+    height: 16px;
+    float:right;
+    background-color: rgba(211, 84, 0,0.9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 375px;
+}
+
+.verMas2{
+    width: 100px;
+    height: 16px;
+    float:right;
+    background-color: rgba(211, 84, 0,0.9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 375px;
+}
+
+.verMas:hover {
+    background-color: rgba(234, 73, 36, 255);
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+#footer{
+    margin-top: 120px;
+}
+
+.cardEvento .moneda{
+      float: right;
+      text-align: center;
+      min-width: 200px;
+      margin-top: 60px;
+      margin-right: 90px;
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.cardEvento p{
+  line-height: 20px;
+  padding: 5px;
+}
+
+.cardEvento h5{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.cardEvento .calificacion{
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+}
+
+.cardEvento h3{
+  font-size: 30px;
+  color: rgba(211, 84, 0,0.9);
+  padding-bottom: 40px;
+}
+
+.cardEvento .calificacionTotal{
+  width: 33px;
+  height: 16px;
+  background-color: rgba(234, 73, 36, 255);
+  float: right;
+  color: white;
+  text-align: center;
+  margin-top: 7px;
+  margin-right: 75px;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+#botones{
+  width: 650px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.far{
+  width: 14px;
+  height: 16px;
+  float: left;
+  padding: 3px;
+  margin-top: 3px;
+  margin-right: 5px;
+  color: rgba(211, 84, 0,0.9);
+}
+
+.fa-eye, .fa-eye-slash{
+    text-decoration: none;
+    color: rgba(211, 84, 0,0.9);
+    width: 200px;
+}
+
+.btnModificar{
+    color: #ce6108;
+    border: 2px solid #ce6108;
+    margin-right: 10px;
+}
+
+.btnModificar:hover{
+        background: #ce6108;
+        color: #fff;
+}
+
+.btnEliminar{
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.btnEliminar:hover{
+        background: #e74c3c;
+        color: #fff;
+}
+
+.btnHabilitar{
+    color: #e74c3c;
+}
+
+.btnDeshabilitar{
+    color: #27ae60;
+}
+
+.botonEstado{
+    margin-top: 30px;
+
+}
+
+#numMin, #numMax{
+    display: none;
+}
+
+.filtroPrecio {
+    float: right;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.buscar_precio{
+    display: block;
+    font-size: 10px;
+}
+
+.buscar_precio button {
+    width: 170px;
+    height: 45px;
+    display: inline-block;
+    margin: 0;
+}

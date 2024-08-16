@@ -1,0 +1,179 @@
+.lista_lugares{
+height: 100%;
+}
+
+#lugares .cardLugar{
+    width: 920px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-top:30px;
+}
+#lugares .cardLugar .contenedorImagen{
+    max-width: 220px;
+    height: 220px;
+    float: left;
+    padding: 20px;
+}
+
+#lugares .cardLugar .contenedorImagen .divInfo{
+    width: 400px;
+    float: left;
+}
+
+.contenedorImagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divInfo{
+    padding-top: 40px;
+    width: 550px;
+    border-radius: 10px;
+    color: rgba(211, 84, 0,0.9);
+}
+
+.divInfo img{
+    width: 49px;
+    height: 49px;
+}
+
+.cardLugar{
+    color: rgba(211, 84, 0,0.9);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.cardLugar:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.verMas{
+    width: 100px;
+    height: 16px;
+    float:right;
+    background-color: rgba(211, 84, 0,0.9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 390px;
+}
+
+.verMas:hover {
+    background-color: rgba(234, 73, 36, 255);
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.verMas2{
+    width: 100px;
+    height: 16px;
+    float:right;
+    background-color: rgba(211, 84, 0,0.9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 390px;
+}
+
+.verMas2:hover {
+    background-color: rgba(234, 73, 36, 255);
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.cardLugar .calificacion{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+}
+  
+.cardLugar h3{
+    font-size: 30px;
+    color: rgba(211, 84, 0,0.9);
+    padding-bottom: 40px;
+}
+  
+.cardLugar .calificacionTotal{
+    width: 33px;
+    height: 16px;
+    background-color: rgba(234, 73, 36, 255);
+    float: right;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    margin-right: 75px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.fa-map-marker-alt{
+    margin-right: 10px;
+    color: rgba(211, 84, 0,0.9);
+    
+}
+
+h1{
+    padding-top: 70px;
+}
+
+.btnModificar{
+    color: #ce6108;
+    border: 2px solid #ce6108;
+    margin-right: 10px;
+}
+
+.btnModificar:hover{
+        background: #ce6108;   
+        color: #fff;
+}
+
+.btnEliminar{
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.btnEliminar:hover{
+        background: #e74c3c;   
+        color: #fff;
+}
+
+.btnHabilitar{
+    color: #e74c3c;
+    width: 86px;
+}
+
+.btnDeshabilitar{
+    color: #27ae60;
+    width: 86px;
+}
+
+.botonEstado{
+    
+    margin-top: 60px;
+    margin-right: 10px;
+}

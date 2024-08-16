@@ -1,0 +1,63 @@
+main{
+    height: 460px;
+}
+#formulario{
+    width: 600px; 
+    height:200px ;
+    padding:50px; 
+    background: #fff;
+    color: #ce6108;
+    border-radius: 30px 30px;
+    margin: 0 auto;
+
+}
+h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#formulario  label{
+    outline: none;
+    width:180px;
+    display:inline-block;
+    font-size: 16px;
+    margin-bottom: 32px;
+    vertical-align: top;
+
+}
+
+#formulario  input{
+    outline: none;
+    display: inline-block;
+    height: 25px;
+    width: 230px; 
+    border-color: #ce6108;
+    
+}
+textarea{
+    border-color: #ce6108;
+    outline: none;
+    min-width:230px; 
+    max-width:230px;
+    min-height: 88px; 
+    max-height: 88px;
+}
+.boton.registrar{
+    top: 65%;
+}
+.boton.modificar{
+    top: 65%;
+}
+.tabla thead th, .tabla tbody td{
+    text-align: center;
+    min-width: 200px;
+    max-width: 200px;
+    
+}
+
+

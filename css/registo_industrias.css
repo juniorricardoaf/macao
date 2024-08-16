@@ -1,0 +1,87 @@
+/* Inicio: Estilos sección registro_industria */
+main{
+    height: 450px;
+}
+h1{
+    margin-top: 120px; 
+}
+
+
+
+#modificar_industria{
+    
+    border-radius: 10px; 
+    height: 120px;
+    width: 400px;
+    padding: 50px; 
+    background: #fff;
+    color: #ce6108; 
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid #ce6108; 
+}
+#modificar_industria{
+    
+    border-radius: 10px; 
+    height: 120px;
+    width: 400px;
+    padding: 50px; 
+    background: #fff;
+    color: #ce6108; 
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid #ce6108; 
+}
+#modificar_industria form div{
+    margin-bottom: 20px;
+}
+#modificar_industria form label{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 170px;
+    float: left;
+    margin-right: 20px;
+}
+#modificar_industria form input{
+    border-color: #ce6108; 
+    outline: none;
+    float: left;
+    height: 25px;
+    width: 196px;
+}
+#modificar_industria form div{
+    margin-bottom: 20px;
+}
+#modificar_industria form label{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 170px;
+    float: left;
+    margin-right: 20px;
+}
+#modificar_industria form input{
+    border-color: #ce6108; 
+    outline: none;
+    float: left;
+    height: 25px;
+    width: 196px;
+}
+
+
+/* Fin: Estilos sección registro_industria */
+
+/* Inicio: Estilos sección botón */
+.boton.registro, .boton.modificar{
+    margin-top: 80px;
+}
+
+/* Fin: Estilos sección botón */
+
+.tabla thead th, .tabla tbody td{
+    text-align: center;
+    min-width: 120px;
+    max-width: 120px;
+    
+}

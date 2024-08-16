@@ -1,0 +1,38 @@
+main{
+    padding-top: 60px;
+    min-height: 500px;
+}
+
+.tabla{
+    border-collapse: collapse;
+    border: 1px black solid;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.tabla thead {
+    display: block;
+}
+.tabla thead tr{
+    background: rgba(0, 0, 0, 0.8); 
+    color:white;
+    text-shadow: 2px 2px 4px #000000da;
+}
+.tabla thead th{
+    border-right: 1px solid #fff;
+    padding: 5px;
+}
+.tabla thead th, .tabla tbody td{
+    text-align: center;
+    min-width: 150px;
+    max-width: 150px;
+    
+}
+.tabla tbody{
+    background: #fff;
+    min-height: 300px;
+    max-height: 1000px;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: block;
+
+}

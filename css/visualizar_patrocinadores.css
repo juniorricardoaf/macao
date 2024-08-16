@@ -1,0 +1,76 @@
+main{
+    height: 450px;
+}
+
+#tablass h1{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #fff;
+    margin-bottom: 30px; 
+};
+
+
+
+/*buscar*/
+#filtro{
+    width: 310px;
+    height: 36px;
+    margin: 0 auto; 
+}
+label{
+    color: black;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+#tblUsuarios{
+    padding-top: 20px;
+    width: 1200px;
+}
+
+.imagenTabla{
+    height: 75px;
+    width: 80px;
+}
+ tbody{
+    width: 680px;
+    width: 100%;
+
+}
+
+
+
+/*.imagenMarcaagua{
+ 
+
+}*/
+
+.tabla thead th, .tabla tbody td{
+    max-width: 200px;
+    min-width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.fa-trash{
+    color: #000000;
+    padding: 0px 8px 0px 8px;
+    width: 20px;
+}
+
+.fa-eye-slash{
+   color: #c0392b;
+}
+
+.fa-eye{
+    color: #44bd32;
+}
+
+.fa-edit{
+    color: #000000;
+
+}

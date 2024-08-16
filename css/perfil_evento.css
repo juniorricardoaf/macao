@@ -1,0 +1,401 @@
+.lista_eventos{
+  height: 100%;
+  margin: 120px 0px 0px 0px;
+  padding: 0px 68px 0px 68px;
+}
+
+#eventos .cardEvento{
+    width: 100%;
+    height: 400px;
+}
+#eventos .cardEvento .contenedorImagen{
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+}
+.contenedorImagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#eventos .cardEvento .divInfo{
+    float: left;
+    padding-top: 0px;
+    margin: 120px 0px 0px 0px;
+    width: 450px;
+    color: #ce6108;
+    font-size: 20px;
+}
+
+.divInfo img{
+    width: 49px;
+    height: 49px;
+}
+
+.divInfo h2{
+  font-size: 38px;
+  margin: -100px 0px 0px  0px; 
+}
+
+.cardEvento{
+    color: #ce6108;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+
+#footer{
+    margin-top: 120px;
+}
+
+.cardEvento .moneda{
+      float: right;
+      text-align: center;
+      min-width: 200px;
+      margin-top: 60px;
+      margin-right: 160px;
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.cardEvento p{
+  line-height: 25px;
+  padding: 10px;
+}
+ 
+.cardEvento .cajaCalificacion{
+  float: left;
+}
+
+.cardEvento .cajaCalificacion .puntuacion{
+  float: left;
+  width: 400px;
+  height: 65px;
+}
+.cardEvento .cajaCalificacion  label{
+  display: block;
+
+}
+.cardEvento .cajaCalificacion  .puntuacion .lapa::before{
+  float: left;
+  padding: 5px;
+  content:  url(../imgs/voto_2.png);
+}
+
+.cardEvento h3{
+  font-size: 30px;
+  color: #ce6108;
+  padding-bottom: 40px;
+}
+
+.cardEvento .bntReservar{
+  margin-top: 150px;
+  margin-left: 350px;
+
+  
+}
+
+
+.far{
+  width: 14px;
+  height: 16px;
+  float: left;
+  padding: 3px;
+  margin-top: 9px;
+  margin-right: 15px;
+  color: #ce6108;
+}
+
+.wrap{
+  width: 100%;
+  max-width: 90%;
+  margin: 0px auto;
+}
+ul.tabs{
+  width: 100%;
+  background: #363636;
+  list-style: none;
+  display: flex;
+}
+
+ul.tabs li{
+  width: 15%;
+}
+
+ul.tabs li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+
+  display: block;
+  padding: 20px 0px;
+}
+
+.active{
+  background: #ce6108;
+}
+
+ul.tabs li a .tab-text{
+  margin-left: 8px;
+}
+
+.secciones{
+  width: 100%;
+  background: #fff;
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.secciones article{
+  padding: 30px;
+}
+
+.secciones article p{
+  text-align: justify;
+  color: #ce6108;
+}
+.secciones h2{
+  background: #ce6108;
+  border-radius: 10px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 30px;
+  line-height: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+  ul.tabs li{
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 450px){
+  ul.tabs li a{
+    padding: 15px 0px;
+  }
+
+  ul.tabs li a .tab-text{
+    display: none;
+  }
+
+  .secciones article{
+    padding: 20px;
+    min-height: 250px;
+  }
+}
+
+.secciones p{
+   width: 910px;
+   font-size: 20px;
+   padding: 5px;
+}
+
+.secciones label{
+font-size: 18px;
+padding: 5px;
+
+} 
+
+#map{
+    width: 1120px;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#latitud{
+display: none;
+}
+
+#longitud{
+display: none;
+}
+.secciones #tabOpiniones{
+  height: 400px;
+}
+.secciones #tabOpiniones h2{
+  font-size: 38px;
+}
+.star{
+  color: goldenrod;
+  font-size: 2.5rem;
+  padding: 5px; /* space out the stars */
+
+}
+.star::before{
+  content:  url(../imgs/voto_si.png);  /* '\2606'  star outline */
+  cursor: pointer;
+
+}
+.star.rated::before{
+  /* the style for a selected star */
+  
+  content:  url(../imgs/voto_2.png);
+  /* filled star */
+}
+
+
+.stars{
+  counter-reset: rateme 0;
+  font-size: 32px;
+  font-weight: 900;
+  width: 1000px;
+  height: 40px;
+  float: left;
+  padding: 2px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.star.rated{
+  counter-increment: rateme 1;
+}
+.stars::after{
+  content: counter(rateme) '/5';
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.boton.calificar{
+  display: block;
+  margin-top: 50px;
+  left: 20%;
+  padding: 10px;
+  outline: none;
+
+}
+
+
+.inputComentar{
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 50px;
+  min-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  border: 2px solid #ce6108;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0.6);
+  padding-left: 8px;
+}
+
+.etiquetas{
+  background-color: #ce6108;
+  border-radius: 10px;
+  color: initial;
+  color: white;
+  display: inline;
+}
+
+
+.fas{
+  color: white;
+}
+
+.precio{
+  margin-bottom: 10px;
+}
+
+#tblComentarios{
+  float: right;
+  margin: -80px 20px 0px 50px;
+  width: 640px;
+
+}
+#tblComentarios thead{
+  background: none;
+  background: #ce6108;
+}
+.tabla thead th, .tabla tbody td{
+  max-width: 640px;
+  min-width: 640px;
+  text-align: center;
+  
+}
+#tblComentarios .bodyComentarios{
+  background: #fff;
+  min-height: 200px;
+  max-height: 250px;
+  
+}
+#tblComentarios .bodyComentarios tr{
+  width: 100%;
+  
+}
+.bodyComentarios {
+  overflow: scroll;
+  min-height: 100px;
+  width: 100%;
+
+}
+
+#tblComentarios .bodyComentarios img{
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  
+}
+#tblComentarios .bodyComentarios label{
+  float: left;
+  
+}
+
+.cupos_Disponibles{
+  float: right;
+  margin-top: 230px;
+  margin-left: 490px;
+  position: absolute;
+  color: #16a085;
+}
+
+.reservar2{
+  width: 100px;
+  height: 16px;
+  float:right;
+  background-color: rgba(234, 73, 36, 255);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 170px;
+  position: absolute;
+  margin-left: 525px;
+}
+
+.reservar2:hover {
+  background-color: rgba(211, 84, 0,0.9);
+  color: white;
+  box-shadow: 0 14px 25px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.reservar3{
+  width: 100px;
+  height: 16px;
+  float:right;
+  background-color: rgba(234, 73, 36, 255);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 170px;
+  position: absolute;
+  margin-left: 525px;
+  cursor: not-allowed;
+  opacity: 0.5;
+}

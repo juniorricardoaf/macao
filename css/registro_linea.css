@@ -1,0 +1,129 @@
+/*inicio de style de formularioRegistro*/
+h1{
+    margin-top: 60px;
+}
+#registro_linea{
+    padding: 30px;
+    margin-bottom: 20px;
+    height: 700px;
+}
+
+/*parte izquierda*/
+#registro_linea .form_izquierda {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#registro_linea .form_izquierda img{
+    width: 200px;
+    display: block;
+    margin: 50px 0px 0px 50px;
+    border-radius:10px;
+}
+.boton.btnSubir{
+    border-radius:10px;
+    background: #ffffff;
+    margin-top: 50px;
+    left: 13.4%;
+}
+/*parte derecha*/
+#registro_linea .form_derecho {
+    float: left;
+    border-radius: 30px 30px;
+    height: 500px;
+    width: 900px;
+    padding: 60px 20px 20px 20px;
+    background:  #fff;
+    color: #ce6108;
+    border: 2px solid #ce6108;
+}
+#registro_linea .form_derecho .col_izq{ 
+   float: left;
+   width: 450px;
+   height: 300px;
+}
+#registro_linea .form_derecho .col_der{ 
+    float: left;
+    width: 450px;
+    height: 300px;
+ }
+#registro_linea .form_derecho .col_izq div, #registro_linea .form_derecho .col_der div{
+    margin-bottom: 14px;
+}
+#registro_linea .form_derecho label{
+    font-weight: bold;
+    margin-left: 20px;
+    width: 180px;
+    display:inline-block;
+}
+#registro_linea .form_derecho  label:hover{
+    color: #ff7300;
+}
+#registro_linea .form_derecho input{
+    border-radius: 5px;
+    display:inline-block;
+    height: 15px;
+    width: 210px; 
+    padding: 5px;
+    color: #ce6108;
+    outline: none;
+}
+/*parte derecha : radios*/
+#registro_linea .form_derecho #inputRadio .radios {
+    display: inline-block;
+}
+#registro_linea .form_derecho #inputRadio .radios input{
+    display: inline-block;
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+}
+#registro_linea .form_derecho #inputRadio {
+    margin-bottom: 22px;
+    margin-top: 2px;
+    display: inline-block;
+    width: 430px;
+    height: 25px;
+    font-size: 14px;
+
+}
+/*columna derecha catpcha*/
+#registro_linea .form_derecho .captcha_btnRegistro {
+    margin: 0px 0px 0px 310px ;
+    width: 350px;
+    height: 100px;
+}
+#registro_linea .form_derecho .captcha_btnRegistro label{
+    margin: 0px 0px 10px 10px ;
+    width: 350px;
+    height: 20px;
+}
+#registro_linea .form_derecho .captcha_btnRegistro input{
+    outline: none;
+    margin: 0px 0px 5px 10px ;
+    width: 100px;
+    height: 20px;
+}
+#registro_linea .form_derecho .captcha_btnRegistro #btnRefrescar{
+    outline: none;
+    margin-top: 20px;
+    background: #ffffff;  
+    border-radius: 10px;
+    width:100px;
+    padding:2px;
+    color: #ce6108;
+    font-size: 14px;
+    margin: 0px 100px 0px 5px;
+}
+#registro_linea .captcha_btnRegistro #btnRefrescar:hover{
+    background: #ce6108;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000da;
+}
+
+/*ubicaión de botón*/
+.boton.registrar{
+    top: 98%;
+    left: 58%;
+}
+/*tabla de prueba*/

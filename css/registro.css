@@ -1,0 +1,142 @@
+
+/*labels*/
+#foto{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width: 90px;
+}
+#foto img{
+    padding-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+#foto input{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-right: 100px;
+}
+
+select{
+    height: 25px;
+    width: 180px;
+}
+
+#sexo{
+    display: inline-block;
+    width: 360px;
+    height: 40px;
+}
+#sexolabel{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+#sexo2{
+    float: left;
+    width: 220px;
+    height: 40px;
+}
+#sexo2 input{
+    margin-top: 20px;
+    width: 10px;
+}
+
+/*inputs*/
+        
+/*tipo de usuario*/
+.TP{
+    color: #f47f1f;
+    width: 360px;
+    margin: 0 auto;
+    padding-bottom: 40px;   
+}
+#tipo{
+    display: inline-block;
+    margin: 0 auto;
+}
+/*termina tipo de usuario*/
+
+/*registro completo*/
+.registro{  
+    display: flow-root;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+/*Formulario de registro*/
+#form{
+    display: flow-root;
+    border-radius: 30px 30px;
+    margin: 0 auto;
+    width: 720px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    background: #ce6108;
+    margin-left: 60px; 
+}
+/*columnas*/
+.col_izq, .col_der, #foto.col_izq{
+    float: left;
+    width: 360px;
+    height: 300px;;
+}
+
+#form .col_izq label, #form .col_der label{
+    color: #fff;
+    padding-bottom: 20px;
+    width: 130px;
+    display: inline-block;
+}
+
+#form .col_izq input, #form .col_der input{
+    display: inline-block;
+    height: 25px;
+    width: 160px;
+}
+/*terminan columnas*/
+
+/*termina formulario*/
+
+/*termina registro completo*/
+
+
+/*botón de registro*/
+.registrar{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 40px;
+}
+#btnRegistrar{  
+    display: inline-block;
+    width: 120px;
+    background: #f47f1f;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+#btnRegistrar:hover{
+    color: rgb(252, 227, 0);
+}
+/*termina botón de registro*/
+
+/*footer*/
+.footer_principal{
+    display: inline-block;
+    width: 1349px;
+    height: 150px;
+    background: #2d3436;
+}
+/**/
+
+#btn{
+    width: 1350px;
+    height: 100px;;
+    display: inline-block;
+}
+
+
+#registroCliente, #registroFísico, #registroJurídico{
+    display: none;
+}

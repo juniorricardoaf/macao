@@ -1,0 +1,107 @@
+#tablas h1{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #ffffff;
+    margin-bottom: 30px; 
+    
+};
+#tablas #filtros{ 
+    margin: 0 auto;
+    background: #ffffff;
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+#txtFecha{
+    margin: 0px 0px 50px 86px;
+}
+
+.boton{
+    float: left;
+    background: #ffffff;
+    border-radius: 10px;
+    top: 38%;
+}
+
+/*css de botones*/
+#buscarLugarFecha{
+    float: left;
+    font-size: 15px; 
+    
+}
+#filtroFecha{
+    float: left;
+    font-size: 15px;
+}
+button{
+    width: 190px;
+    height: 46px;
+    font-size: 15px;
+}
+.boton.btnLugar{ 
+    left: 0;
+    left: 40%;
+}
+.boton.btnFecha{
+    left: 60%;
+}
+
+
+#tblEvento{
+    display: none;
+}
+
+.TP, #tipo{
+    width:640px;
+    margin: 0 auto;
+}
+#tipo select{
+    border: 1px black solid;
+    display:inline-block;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    border-radius: 6px;
+}
+input{
+    padding: 0px 0px 0px 10px;
+    border: 1px black solid;
+    height: 35px;
+    width: 280px;
+    border-radius: 6px;
+    outline: none;
+    color: #ce6108;
+    background: #fff;
+}
+#txtFiltrar{
+    float: right;
+    margin-bottom: 4px;
+}
+.lapa::before{
+    width: 38px;
+    height: 10px;
+    float: left;
+    padding: 0px 4px 14px 0px;
+    content:  url(../imgs/ranking.png) ;
+
+  }
+
+  
+
+  div{
+      float: right;
+      padding-top: 4px;
+      margin-right: 10px;
+  }
+  
+  .tabla thead th, .tabla tbody td{
+    text-align: center;
+    min-width: 200px;
+    max-width: 200px;
+    
+}

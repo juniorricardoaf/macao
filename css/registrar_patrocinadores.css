@@ -1,0 +1,74 @@
+/*inicio de los estilos del div col_izq*/
+main{
+    height: 450px;
+}
+.col_izq {
+    width: 350px;
+    height: 350px;
+    float:left;
+} 
+/*inicio de los estilos de la imagen del logo*/
+#foto_patrocinadores{
+    margin-top: 50px;
+    width: 200px;
+}
+#image_preview2{
+    width: 200px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+/*Fin de los estilos de la imagen del logo*/
+
+/*Inicio de los estilos de la sección registrar_patrocinadores*/
+#registrar_patrocinadores .col_der{
+    width: 460px;
+    height: 100px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    padding: 40px;
+    color: #ce6108;
+}
+#registrar_patrocinadores h1{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    
+}
+#registrar_patrocinadores .col_der div{
+    margin-bottom: 20px;
+} 
+#registrar_patrocinadores .col_der label{
+    
+    padding-top: 5px;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 170px;
+    display:inline-block;
+}
+#registrar_patrocinadores .col_der  label:hover{
+    color: #fdcb6e;
+}
+#registrar_patrocinadores .col_der input, select{
+    outline: none;
+    display:inline-block;
+    height: 25px;
+    width: 220px; 
+}
+/*Fin*/
+
+/*Inicio de los estilos del botón registrar*/
+
+.boton.subir{
+    border-radius: 10px;
+    background: #fff; 
+    margin-top: 40px;
+    left: 11%;
+}
+.boton.registro{
+    border-radius: 10px;
+    background: #fff; 
+    margin-top: 80px;
+}

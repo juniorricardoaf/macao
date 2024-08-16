@@ -1,0 +1,68 @@
+.form {
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    margin: 150px 0px 0px 35%;
+    background:  rgba(255, 255, 255, 0);
+}
+h1{
+    color: #ce6108;
+    text-shadow: none;
+}
+.form #inicio{
+    padding: 28px;
+    left: 50%;
+    height: 300px;
+    background:  rgba(255, 255, 255, 0.829);
+    border: 2px solid #ce6108;
+    color: #ce6108;
+    border-radius: 30px;
+}
+.form #inicio div{
+    margin-bottom: 10px;
+}
+
+.form #inicio input{
+    display: block;
+    outline: none;
+    border-radius: 10px;
+    background: #ce6108;
+    height: 25px;
+    width: 60%;
+    padding: 10px ;
+    color: white; 
+    margin: auto;
+    font-size: 16px;
+}
+.form #inicio input::placeholder { 
+    color: rgba(255, 255, 255, 0.753); 
+    font-size: 12px;
+}
+.olvido{
+    display: block;
+    outline: none;
+    width: 60%;
+    color: #ce6108;
+    margin: auto;
+    font-size: 14px;
+}
+.form button{
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    margin-top: -80px;
+    text-shadow: none;
+    font-weight: bold;
+}
+h2{    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+        font-size: 20px;
+    color: #ce6108;
+}

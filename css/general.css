@@ -1,0 +1,362 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(top,  #ce6108 0%,rgb(241, 196, 15)  100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+main{
+     min-height: 500px;
+}
+input, textarea,button, select, a{
+    outline: none;
+}
+#header_principal{
+    outline: none;
+    transition: 0.5s;
+    position: fixed; 
+    background: #ce610800;
+    padding: 0px 60px 0px 50px;
+    height: 80px;
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
+    top: 0;
+    z-index: 1;
+}
+#header_principal.barra {
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 0px 60px 0px 50px ; 
+    height: 60px;
+    font-size: 16px;
+}
+#header_principal img{
+    width: 130px;
+    float: left;
+    margin: 5px 0px 0px 20px;  
+    transition: 0.5s;
+}
+#header_principal.barra img{
+    width: 100px; 
+    transition: 0.5s;
+    margin: 5px 0px 0px 20px;  
+}
+/*estilos de nav__________________________________________________________*/
+#header_principal #navPrincipal{
+    font-size: 18px;
+    width: auto;
+    float: right;
+    padding: 20px 100px 0px 20px;
+}
+#header_principal.barra #navPrincipal{
+    font-size: 16px;
+    width: auto;
+    float: right;
+    padding: 20px 100px 0px 20px;
+}
+#header_principal #navPrincipal ul{
+    display: flex;
+    float: left;
+}
+#header_principal #navPrincipal ul li a{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none; 
+    margin-right: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+#header_principal #navPrincipal a.inicio, #header_principal #navPrincipal a:hover {
+    transition: 0.5s;
+    background: #ff9900d7;
+    border-radius: 10px;
+    padding: 6px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#header_principal.barra #navPrincipal a.inicio, #header_principal.barra #navPrincipal a:hover{
+    transition: 0.5s;
+    background: #ce6108d7;
+    border-radius: 10px;
+    padding: 6px;
+    width: 100%;
+    height: 100%;
+}
+/*estilos de foto de perfil_________________________________________________________*/
+#header_principal #image_preview{
+    position: relative;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    top: -20px;
+}
+#header_principal.barra #image_preview{
+    width: 45px;
+    height: 45px;
+}
+#header_principal #navPrincipal  ul li:hover  #foto_perfil{
+	display:block;
+}
+#header_principal #navPrincipal  ul li #foto_perfil{
+    position: absolute;
+	display:none;
+    transition: 0.5s;
+    margin-top: 60px;
+	background:#ffffff00;
+    box-sizing:border-box;
+    font-size: 22px;
+}
+
+#header_principal.barra #navPrincipal  ul li #foto_perfil{
+    transition: 0.5s;
+    margin-top: 40px;
+    width: 160px;
+    height: 80px;   
+    background:#00000000;
+    padding: 10px 0px 0px 0px;
+    box-sizing:border-box;
+    font-size: 18px;
+    right: 80px;
+}
+/*________________________________fin caja______________inicio de a______________________________*/
+#header_principal #navPrincipal  ul li #foto_perfil ul{
+    display: block;
+    width: 180px;
+}
+#header_principal #navPrincipal  ul li #foto_perfil ul .cliente{
+    width: 160px;
+}
+/*______________*/
+#header_principal #navPrincipal  ul li #foto_perfil ul .cliente a{
+    padding: 5px;
+    display: block;
+    width: 160px;
+    height: 20px;
+    font-size: 18px;
+    right: 80px;
+    cursor: pointer;
+}
+#header_principal #navPrincipal  ul li #foto_perfil ul  .cliente a:hover{
+    width: 160px;
+    height: 20px;
+    font-size: 18px;
+    right: 80px;
+    padding: 6px;
+    background: #ce6108;
+}
+/*________________________________________barra______*/
+#header_principal.barra #navPrincipal  ul li #foto_perfil ul .cliente a{
+    padding: 5px;
+    display: block;
+    width: 160px;
+    height: 20px;
+    font-size: 18px;
+    right: 80px;
+}
+#header_principal.barra #navPrincipal  ul li #foto_perfil ul  .cliente a:hover{
+    width: 160px;
+    height: 20px;
+    font-size: 18px;
+    right: 80px;
+    padding: 6px;
+    background: #ce6108;
+}
+
+/*botones*/
+.boton{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{ 
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    background: #ce610800;
+    border: 2px solid #ce6108;
+    padding:15px;
+    color:#ce6108;
+    font-size: 25px;
+    outline: none;
+    text-shadow: none;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+.boton .button::before{
+    background: #ce6108;
+    content: "";
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+/*despues*/
+.boton .button:hover::before{
+    height: 110%;
+}
+.boton .button:hover{
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+}
+/*estilos de h1*/
+h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*fin de h1*/
+#footer{ 
+    position: relative;
+    background: rgba(0, 0, 0, 0.918); 
+    color: black;
+    padding: 25px; 
+    margin-top: 50px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    bottom: 0;
+}
+#footer h2,h3 { 
+    color: #fff;
+    text-align: center;
+}
+#footer h2{ 
+    font-size: 20px;
+}
+#footer h3{ 
+    font-size: 16px;   
+}
+
+/*errores*/
+.errorInput{
+    border: 3px solid #ff0000;
+}
+/*none*/
+.ocultar{
+    display: none;
+}
+/*__________________________________________Buscador_________________________________________________________*/
+.txtFiltro{
+    color: #ce6108;
+    outline: none;
+    width: 600px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    border:none;
+    padding: 0px 0px 0px 20px ;
+    text-align: center;
+}
+/*___________________________________________Tablas__________________________________________________________*/
+.tabla{
+    border-collapse: collapse;
+    border: 1px black solid;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.tabla thead {
+    display: block;
+}
+.tabla thead tr{
+    background: rgba(0, 0, 0, 0.8); 
+    color:white;
+    text-shadow: 2px 2px 4px #000000da;
+}
+.tabla thead th{
+    border-right: 1px solid #fff;
+    padding: 5px;
+}
+.tabla thead th, .tabla tbody td{
+    text-align: center;
+    
+}
+.tabla tbody{
+    background: #fff;
+    min-height: 300px;
+    max-height: 1000px;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: block;
+
+}
+.tabla tbody tr td{
+    padding: 5px;
+    border-bottom: 0.3px solid #ce6108;
+    border-right: 0.3px solid #ce6108;
+    overflow: hidden;
+}
+.tabla tbody tr:hover{
+    transition: 0.3s;
+    border-bottom: 0.3px solid #ce6108;
+    border-right: 0.3px solid #ce6108;
+    background: #ce6108c9;
+    color: white;   
+}
+/*estado*/
+.tabla tbody tr:hover .botonEstado{
+    transition: 0.3s;
+    color: white;   
+}
+
+.botonEstado{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    min-width: 60px;
+    text-align: center;
+}
+.btnHabilitar{
+    border: 2px solid #e74c3c;   
+}
+.btnHabilitar:hover{
+    background: #e74c3c;   
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btnDeshabilitar{
+    border: 2px solid #27ae60;    
+}
+.btnDeshabilitar:hover{
+    background: #27ae60;   
+    color: #fff;
+    transition: background 0.5s;
+}
+/*opciones*/
+.tabla tbody tr:hover .fas, .tabla tbody tr:hover .far{
+    transition: 0.3s;
+    color: white;  
+}
+.fas, .far{
+    width: 20px;
+    color: #000000;
+    padding: 5px;
+    
+}
+.tabla tbody tr .fas:hover, .tabla tbody tr .far:hover{
+    transition: 0.3s;
+    border-radius: 10px;
+    background: #fff;
+    padding: 5px;
+    color: #ce6108;
+}
+
+.text-center {
+    text-align: center;
+}

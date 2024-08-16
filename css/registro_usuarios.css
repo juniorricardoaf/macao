@@ -1,0 +1,160 @@
+/*inicio de style de formularioRegistro*/
+.TP{
+    color: #ffffff;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size:  25px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#txttp{
+    color: #ce6108;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size:  20px;
+    
+
+}
+#tipo{
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.registroUsuarios{
+    padding: 30px;
+    margin-bottom: 20px;
+    height: 600px;
+}
+.registroUsuarios h1{
+    color:  #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.registroUsuarios h2{
+    color:  #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+/*parte izquierda*/
+.registroUsuarios .formIzquierda {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.registroUsuarios .formIzquierda img{
+    width: 200px;
+    display: block;
+    margin: 50px 0px 0px 50px;
+    border-radius: 10px;
+}
+/*posicion de botones*/
+.boton.subir1, .boton.subir2{
+    background: #fff;
+    margin-top: 35px;
+    border-radius: 10px;
+    left: 13.5%;
+}
+#btnSubirImagen, #btnSubirImagen2{
+    font-size: 18px;
+    width: 200px;
+}
+.boton.registroCliente, .boton.registroEmpresarioFisico, .boton.registroEmpresarioJuridico{
+    background: #ffffff;
+    border-radius: 10px;
+    top: 110%;
+}
+/*parte derecha*/
+.registroUsuarios .formDerecho {
+    float: left;
+    border-radius: 30px 30px;
+    height: 360px;
+    width: 900px;
+    padding: 20px;
+    background:  #fff;
+    color: #ce6108;
+}
+.registroUsuarios .formDerecho .colIzq, .registroUsuarios .formDerecho .colDer{
+   float: left;
+   width: 450px;
+   height: 300px;
+}
+.registroUsuarios .formDerecho .colIzq div, .registroUsuarios .formDerecho .colDer div{
+    margin-bottom: 14px;
+}
+.registroUsuarios .formDerecho label{
+    margin-left: 20px;
+    width: 170px;
+    display:inline-block;
+}
+.registroUsuarios .formDerecho  label:hover{
+    color: #fdcb6e;
+}
+.registroUsuarios .formDerecho input{
+    display:inline-block;
+    height: 25px;
+    width: 220px;
+}
+/*parte derecha : radios*/
+.registroUsuarios .formDerecho .inputRadio .radios {
+    display: inline-block;
+}
+.registroUsuarios .formDerecho .inputRadio .radios input{
+    display: inline-block;
+    width: 25px;
+    height: 17px;
+    cursor: pointer;
+}
+.registroUsuarios .formDerecho .inputRadio {
+    margin-bottom: 22px;
+    margin-top: 2px;
+    display: inline-block;
+    width: 430px;
+    height: 30px;
+    font-size: 14px;
+
+}
+.registroUsuarios  #txtDireccion2, .registroUsuarios #txtDireccion3 {
+    vertical-align: top;
+}
+
+/*estilo de regitro cliente*/
+#registroCliente .formDerecho .colIzq, #registroCliente .formDerecho .colDer{
+    padding-top: 40px;
+ }
+
+
+/*solo de registro empresario (fisico)*/
+#registroEmpresarioFisico .formDerecho{
+    display: inline-block;
+    margin: 0px 0px 0px 180px ;
+}
+
+.registroUsuarios .formDerecho textarea{
+    display:inline-block;
+    min-height: 115px;
+    min-width: 220px;
+    max-width: 220px;
+    max-height: 115px;
+}
+#registroEmpresarioJuridico h2{
+ color: #ce6108
+}
+
+
+#registroCliente, #registroEmpresarioFisico, #registroEmpresarioJuridico {
+    display: none;
+}
+
+#fotoP{
+padding-top: 20px;
+width: 397px;
+margin: 0 auto;
+}
+#img_centro{
+    width: 397px;
+}

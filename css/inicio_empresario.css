@@ -1,0 +1,115 @@
+.card .caja{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    float: left;
+    width: 300px;
+    height: 410px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px; 
+}
+.card .caja:hover{
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.card .caja .imagen{
+    background: #ce6108;
+
+}
+.card .imagen img{
+    padding: 10px 0px 0px 0px;
+    width: 70%;
+}
+.card{
+    width: 95%;
+    height: 390px;
+    margin: auto;
+    margin-top: 70px;
+
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    color: #ce6108;
+}
+.card p{
+    width: 200px;
+    margin: auto;   
+    line-height: 20px;
+}
+.card h4{
+    font-size: 26px;
+    text-align: center;
+    color: #000 ;
+}
+.card div h3{
+    padding: 10px 4px 10px 4px;
+    font-size: 22px;
+    text-align: center;
+    color: #000 ;
+}
+#opt{
+    display: block;
+    float: left;
+}
+p label{
+    float: right;
+    padding-top: 20px;
+}
+
+.opciones{
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-left: 50px; 
+    padding: 10px 0px 10px 0px;
+    color: #ce6108;
+    font-weight: bold;
+}
+
+
+/*boton*/
+
+
+.boton{
+    position: relative;
+    transform: translate(-35%, 0%);
+    margin: 0;
+    margin-top: 20px;
+}
+.boton.verLugar{
+    margin-left: 15px;
+}
+.boton.registroEvento{
+    margin-left: 5px;
+}
+.boton.verEvento{
+    margin-left: 15px;
+}
+#titulo{
+    padding-top: 90px;
+    width: 1263px;
+    margin: 0 auto;
+}
+
+
+/*Nombre de usuario*/
+input{
+    display:block;
+    color:  white;  
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background:  #ce610800;
+    border: none;
+}

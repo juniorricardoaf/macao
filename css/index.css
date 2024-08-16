@@ -1,0 +1,135 @@
+html{
+
+    background: none;
+
+}
+main{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: white;
+}
+.contenedor{
+    width: 100%;
+    height: 650px;
+    display: inline-block;
+    background-attachment: fixed;
+}
+.imagen1, .imagen2, .imagen3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.imagen1{
+    background-image: url(../imgs/evento_1.jpg);
+}
+.cambiante {
+    display: flex;
+    width: 800px;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 225px;
+    text-align: center;
+    font-weight: black;
+    text-shadow: 2px 2px 4px #000000;
+    overflow: hidden;
+
+}
+.cambiante ul{
+    padding: 0px 10px 0px 10px ;
+    animation: cambiar 7s infinite;
+}
+
+@keyframes cambiar{
+    0%{ margin-top: 0px;}
+    20%{ margin-top: 0px;}
+
+    25%{ margin-top: -40px;}
+    45%{ margin-top: -40px;}
+
+    50%{ margin-top: -80px;}
+    75%{ margin-top: -80px;}
+
+    80%{ margin-top: -40px;}
+    95%{ margin-top: -40px;}
+
+    100%{ margin-top: 0px;}
+
+}
+
+/*fin de cambiante*/
+
+/*boton registro*/
+.boton.btn_ir_registro{
+    top: 50%;
+}
+.boton.btn_ir_registro button{
+    color:white;
+    text-shadow: 2px 2px 4px #000000da;
+
+}
+/*boton lugares*/
+.boton.btn_ver_lugares{
+    margin-top: 50px;
+}
+/*boton eventos*/
+.boton.btn_ver_eventos{
+    margin-top: 50px;
+}
+/*fin de botones*/
+
+.contenido{
+    width:100%;
+    height: auto;
+    padding: 50px 0px 200px 0px;
+    display: inline-block;
+    background-color:white;
+    text-align: center;
+}
+.contenido h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(226, 109, 12);
+    padding-bottom: 10px;
+    text-shadow: none;
+}
+.contenido p{
+    font-size: 27px;
+    color: #333;
+    margin: 0 auto;
+    width: 920px;
+    padding: 10px 0px 20px 0px;
+    line-height: 28px;
+}
+.imagen2{
+    background-image: url(../imgs/lugar_3.jpg);
+}
+.contenido2 h1{
+    color: rgb(226, 109, 12);
+}
+
+.imagen3{
+    background-image: url(../imgs/evento_3.jpg);
+}
+.contenedor h2{
+    color: white;
+    font-size: 48px;
+    padding: 250px 0;
+    text-align: center;
+    font-weight: black;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.contenedor.imagen3 h2{
+    font-size: 50px;
+}
+/*fin de estilo de cajas*/

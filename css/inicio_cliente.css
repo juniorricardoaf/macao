@@ -1,0 +1,87 @@
+h1{
+    padding-top: 50px;
+}
+h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+img{
+    margin-top: 10px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 250px;
+    max-height: 250px;
+    vertical-align: middle;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0);
+    padding: 2px;
+    background-color: #fff;
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+.contenedor{
+     width: 90%;
+     overflow: hidden;
+     padding-left: 6%;
+ }
+
+ .card span{
+     padding: 5px;
+    font-size: 22px;
+    float: left;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+    margin: 1%;
+    color: #ce6108;
+}
+
+.contenedorImagen{
+    max-width: 220px;
+    height: 220px;
+    float: left;
+    padding: 20px;
+}
+
+.contenedorImagen img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.verMas{
+    margin: 20px 0px 10px 100px;
+    width: 100px;
+    height: 16px;
+    float:left;
+    background-color: rgba(211, 84, 0,0.9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.verMas:hover {
+    background-color: rgba(234, 73, 36, 255);
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+body{
+    position: relative;
+}
+#footer h2{
+    margin: initial;
+}
+#footer{
+    margin-top: 200px;
+    left:0; right: 0; bottom: 0;
+    
+}
